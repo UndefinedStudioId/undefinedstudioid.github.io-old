@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undefined Studio</title>
+    <title>Aji Wahyu</title>
 </head>
 <body>
-    <h1>Aji Wahyu personal website</h1>
-</body>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="profile">
+        <img src="./asset/img/aji.jpeg" alt="aji" width="48px">
+        <h1>Aji Wahyu IN</h1>
+        <h4>Sleman, Yogyakarta</h4>
+        <h4>Ajiewahyu24@gmail.com</h4>
+        <h4>085385008809</h4>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/ajiwahyuin/" target="_blank">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/ajiwahyu_in">Instagram</a></li>
+            <li><a href="https://twitter.com/ajiwahyu_in">Twitter</a></li>
+        </ul>
+        <hr>
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <br>
+        <p>Hi, my name is Aji Wahyu, I am a student majoring in S1 informatics, Amikom University, Yogyakarta, I have interest in modern website technology and also about ui/ux design. It's been almost a year since i've been trying to gain knowledge by registering for several online course and being involved in several small project.</p>
+    </section>
+    <section id="work">
+        <h1>Work Experience</h1>
+        <br>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Period</th>
+            </tr>
+            <tr>
+                <td>Widya Edu</td>
+                <td>Front End Developer</td>
+                <td>Internship</td>
+                <td>August 2021 - now</td>
+            </tr>
+            <tr>
+                <td>Undefined Studio</td>
+                <td>Graphic Designer</td>
+                <td>Freelance</td>
+                <td>August 2019 - now</td>
+            </tr>
+        </table>
+    </section>
+    <section id="edu">
+        <h1>Education</h1>
+        <br>
+        <h4>Universitas Amikom Yogyakarta</h4>
+        <hr>
+        <h5>Informatika</h5>
+        <h5>2018</h5>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <br>
+        <ol>
+            <li>Graphic Design</li>
+            <li>Web Design</li>
+        </ol>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <br>
+        <form action="" method="POST">
+            <label for="firstname">firstname :</label>
+            <input type="text" name="firstname" id="firstname">
+            
+            <label for="lastname">lastname :</label>
+            <input type="text" name="lastname" id="lastname">
+
+            <label for="address">address :</label>
+            <select name="address" id="address">
+                <option value="Indonesia">Indonesia</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+            </select>
+
+            <label for="note">Note :</label>
+            <textarea name="note" id="note" cols="30" rows="10"></textarea>
+
+            <button type="submit" name="submit">submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>Aji Wahyu</p>
+        <a href="mailto:ajiewahyu24@gmail.com">Ajiewahyu24@gmail.com</a>
+    </footer>
+</body> 
 </html>
