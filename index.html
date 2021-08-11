@@ -4,20 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- font montserrat & Dancing Sript-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Aji Wahyu</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work">Work Experience</a></li>
-            <li><a href="#edu">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="profile">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">Ajiwahyu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#edu">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <div class="jumbotron jumbotron-fluid " id="top" style="background-image: url(img/aji.png);">
+        <div class="container jumbotron-content pt-5 text-white">
+            <div class="row">
+                <div class="col mt-5">
+                    <h4>Hi, I'm</h4>
+                    <h1>AJI WAHYU</h1>
+                    <p>I am an active student at Amikom University <br> majoring in informatics engineering </p>
+                    <button type="button" class="btn btn-warning btn-lg mt-5 text-white text-uppercase">Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <footer class="bg-light text-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class=" col pt-2">
+                    <p class="text-muted"><i class="far fa-copyright"></i> Copyright 2020 | Aji Wahyu | All right
+                        reserved | Build with <i class="fas fa-heart text-danger"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <section id="profile">
         <img src="./asset/img/aji.jpeg" alt="aji" width="48px">
         <h1>Aji Wahyu IN</h1>
         <h4>Sleman, Yogyakarta</h4>
@@ -102,6 +155,9 @@
     <footer>
         <p>Aji Wahyu</p>
         <a href="mailto:ajiewahyu24@gmail.com">Ajiewahyu24@gmail.com</a>
-    </footer>
+    </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body> 
 </html>
