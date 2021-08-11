@@ -4,20 +4,262 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- font montserrat & Dancing Sript-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Aji Wahyu</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work">Work Experience</a></li>
-            <li><a href="#edu">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="profile">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">Ajiwahyu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#edu">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <div class="jumbotron jumbotron-fluid " id="top" style="background-image: url(./asset/img/jumbotron.jpeg);">
+        <div class="container jumbotron-content pt-5 text-white">
+            <div class="row">
+                <div class="col mt-5">
+                    <h4>Hi, I'm</h4>
+                    <h1>AJI WAHYU</h1>
+                    <p>I am an active student at Amikom University <br> majoring in informatics engineering </p>
+                    <button type="button" class="btn btn-warning btn-lg mt-5 text-white text-uppercase">Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center mb-4">
+                    <h2 id="about">About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-2">
+                <div class="col-6 text-right">
+                    <p> i have an interest in modern website and also about ui/ux design. It’s been almost
+                        a year since I've been trying to gain knowledge by registering for several online course and being involved in several small project</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="personal-info">
+        <div class="container">
+            <div class="row">
+                <div class=" col-6">
+                    <div class="row">
+                        <div class="col text-uppercase">
+                            <p class="text-warning">personal info</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><i class="fas fa-city"></i> Batang</p>
+                            <p><i class="far fa-calendar-alt"></i> 24 - 11 1999</p>
+                            <p><i class="far fa-envelope"></i> Ajiewahyu24@gmail.com</p>
+                        </div>
+                        <div class="col">
+                            <p><i class="fas fa-phone-square"></i> +62-8385-0088-809</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Sempu Rt 1 Rw 2</p>
+                            <p><i class="fab fa-github"></i> GitHub.com/Ajiewahyu24</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col text-uppercase">
+                            <p class="text-warning">interest with</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><i class="fas fa-headphones-alt"></i> Music</p>
+                            <p><i class="fas fa-suitcase-rolling"></i> Travelling</p>
+                            <p><i class="fas fa-book"></i> Books</p>
+                        </div>
+                        <div class="col">
+                            <p><i class="fab fa-youtube"></i> Movie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-uppercase">
+                    <p class="text-warning">Education</p>
+                </div>
+            </div>
+            <div class="row border-bottom mb-5">
+                <div class="col">
+                    <p class="text-muted">2015-2018</p>
+                    <p class="float-left">Sekolah Menengah Atas</p>
+                    <p class="float-right">SMK Ma'arif NU 01 Limpung</p>
+                </div>
+            </div>
+            <div class="row border-bottom mb-5">
+                <div class="col">
+                    <p class="text-muted">2018-Now</p>
+                    <p class="float-left">Perguruan Tinggi</p>
+                    <p class="float-right">Universitas Amikom Yogyakarta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+        <table class="table mx-auto">
+            <thead>
+              <tr>
+                <th scope="col">Company</th>
+                <th scope="col">Role</th>
+                <th scope="col">Status</th>
+                <th scope="col">Period</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Widya Edu</th>
+                <td>Front End Developer</td>
+                <td>Internship</td>
+                <td>August 2021 - now</td>
+              </tr>
+              <tr>
+                <th scope="row">Fiverr</th>
+                <td>Graphic Designer</td>
+                <td>Freelance</td>
+                <td>August 2019 - now</td>
+              </tr>
+            </tbody>
+          </table>  
+        </div>
+    </section>
+        
+
+    <section class=" deal mt-5 ">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-center text-uppercase">
+                    <h2 class="text">I Deal With</h2>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class=" col">
+                    <img src="./asset/img/video-camera.png" alt="">
+                    <p class="mt-2">Filmaking</p>
+                </div>
+                <div class="col">
+                    <img src="./asset/img/responsive-design-symbol.png" alt="">
+                    <p class="mt-2">Web Developer</p>
+                </div>
+                <div class="col">
+                    <img src="./asset/img/ui-design.png" alt="">
+                    <p class="mt-2">UI/UX Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact mb-5 mt-5">
+        <div class="container">
+            <div class="row pt-4 mb-4">
+                <div class="col text-center text-uppercase">
+                    <h2 id="contact" class="text-white">contact</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col md-4">
+                    <div class="card text-white bg-warning mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">contact me</h5>
+                            <p class="card-text">if you want to use the services of me or just get acquainted</p>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h1>Location</h1>
+                        </li>
+                        <li class="list-group-item">My Office</li>
+                        <li class="list-group-item">JL.Limpung-banyuputih,Batang</li>
+                        <li class="list-group-item">Center Java,Indonesia</li>
+                    </ul>
+                </div>
+                <div class="col lg-6">
+                    <form>
+                        <div class="form-group text-white">
+                            <label for="nama">Nama</label>
+                            <input type="text" class="form-control" placeholder="nama lengkap" id="nama>
+                        </div>
+                        <div class=" form-group text-white">
+                            <label for="Email">Email</label>
+                            <input type="text" class="form-control" placeholder="example@gmail.com" id="Email>
+                        </div>
+                        <div class=" form-group text-white">
+                            <label for="No Telp">No Telp</label>
+                            <input type="text" class="form-control" placeholder="+62-" id="No Telp">
+                        </div>
+                        <div class="form-group text-white">
+                            <label for="pesan">Pesan</label>
+                            <textarea name="pesan" id="pesan" class="form-control"
+                                placeholder="kritik & saran"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-warning text-white">kirim pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+      <footer class="bg-light text-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class=" col pt-2">
+                    <p class="text-muted"><i class="far fa-copyright"></i> Copyright 2020 | Aji Wahyu | All right
+                        reserved | Build with <i class="fas fa-heart text-danger"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <section id="profile">
         <img src="./asset/img/aji.jpeg" alt="aji" width="48px">
         <h1>Aji Wahyu IN</h1>
         <h4>Sleman, Yogyakarta</h4>
@@ -102,6 +344,9 @@
     <footer>
         <p>Aji Wahyu</p>
         <a href="mailto:ajiewahyu24@gmail.com">Ajiewahyu24@gmail.com</a>
-    </footer>
+    </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body> 
 </html>
